@@ -1,0 +1,75 @@
+시작메뉴고쳐@DESKTOP-GR883KV MINGW64 /c/새싹 장현준/Git/nextjs-labs-v1 (main)
+$ cd ch1-lets-start/
+
+시작메뉴고쳐@DESKTOP-GR883KV MINGW64 /c/새싹 장현준/Git/nextjs-labs-v1/ch1-lets-start (main)
+$ cd ch1-code-yourself/
+
+시작메뉴고쳐@DESKTOP-GR883KV MINGW64 /c/새싹 장현준/Git/nextjs-labs-v1/ch1-lets-start/ch1-code-yourself (main)
+$ npx create-next-app@latest
+Need to install the following packages:
+create-next-app@15.3.3
+Ok to proceed? (y) y
+
+√ What is your project named? ... my-app
+√ Would you like to use TypeScript? ... No / Yes
+√ Would you like to use ESLint? ... No / Yes                                      // 문법 체크
+√ Would you like to use Tailwind CSS? ... No / Yes
+√ Would you like your code inside a `src/` directory? ... No / Yes
+√ Would you like to use App Router? (recommended) ... No / Yes                    // 라우터
+√ Would you like to use Turbopack for `next dev`? ... No / Yes                    // 빌드
+√ Would you like to customize the import alias (`@/*` by default)? ... No / Yes   // No로 해도 @를 통해서 빠른 임포트 가능
+Creating a new Next.js app in C:\새싹 장현준\Git\nextjs-labs-v1\ch1-lets-start\ch1-code-yourself\my-app.
+
+Using npm.
+
+Initializing project with template: app-tw
+
+
+Installing dependencies:
+- react
+- react-dom
+- next
+
+Installing devDependencies:
+- typescript
+- @types/node
+- @types/react
+- @types/react-dom
+- @tailwindcss/postcss
+- tailwindcss
+- eslint
+- eslint-config-next
+- @eslint/eslintrc
+
+
+added 339 packages, and audited 340 packages in 28s
+
+136 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Success! Created my-app at C:\새싹 장현준\Git\nextjs-labs-v1\ch1-lets-start\ch1-code-yourself\my-app
+
+
+
+
+시작메뉴고쳐@DESKTOP-GR883KV MINGW64 /c/새싹 장현준/Git/nextjs-labs-v1/ch1-lets-start/ch1-code-yourself (main)
+$ cd my-app/
+
+시작메뉴고쳐@DESKTOP-GR883KV MINGW64 /c/새싹 장현준/Git/nextjs-labs-v1/ch1-lets-start/ch1-code-yourself/my-app (main)
+$ npm run dev
+
+> my-app@0.1.0 dev
+> next dev --turbopack
+
+   ▲ Next.js 15.3.3 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.20.82:3000
+
+ ✓ Starting...
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+ ✓ Ready in 1236ms
